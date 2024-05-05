@@ -1,0 +1,207 @@
+.App {
+}
+.MenuBar{
+background-image: linear-gradient(180deg, dimgray, transparent);
+width: 100%;
+position: fixed;
+top: 0;
+}
+.MenuBar img{
+  width: 90px;
+  float: left;
+  height: 90px;
+  margin-top:25px;
+  margin-left: 25px;
+  border-radius: 20px;
+}
+body{
+  background-color: #282c34;
+  text-align:center;
+}
+.navbar-ul li{
+display: inline-block;
+padding: 25px;
+}
+.navbar-right{
+  text-align: right;
+}
+.navbar-ul img{
+  align-items: left;
+}
+
+
+.ButtonBox{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: darkgray;
+  margin: 20px;
+  border: 0px;
+  width: 120%;
+  color: white;
+  font-size: 24px;
+  box-shadow: 0px 0px 2px 2px rgba(67, 66, 66, 0.461);
+}
+.login textarea {
+  align-items: center;
+  width: 400px;
+  height: 100px;
+}
+.ProdList{
+  background-color: #18282c;
+  padding: 30px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+  overflow: auto;
+}
+.ProdList input {
+  height: 40px;
+  padding: 5 px;
+  width: 400 px;
+  margin-bottom: 30px;
+  width: 400px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid;
+}
+.ProdList ul{
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  background-color: dimgray;
+  border-radius: 10px;
+}
+.ProdList ul li{  
+  display: inline-block;
+  padding:5px;
+  padding-right: 10px;
+  width: 150px;
+  height : 100px;
+
+  white-space: nowrap;
+}
+
+.ProdList ul li button{
+  margin-right: 20px;
+} 
+
+.Invalid-input{
+  color: red;
+  font-size: medium;
+  text-decoration: solid;
+}
+
+.login{
+  margin-left: 300px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+    margin-right: 300px;
+    background-color: dimgrey;
+    border-radius: 60px;
+    margin-top: 160px;
+    box-shadow: 0 20px 150px 0 rgba(0, 0, 0, 0.2), 9px 9px 9px 9px rgba(0, 0, 0, 0.19);
+}
+.login h2{
+  text-align: left;
+  margin-left: 76px;
+}
+.login input{
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  border-radius: 10px;
+  height: 30px;
+}
+.login button{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: darkgray;
+  margin: 20px;
+  border: 0px;
+  width: 200px;
+  color: white;
+  font-size: 30px;
+  box-shadow: 0px 0px 5px 5px rgba(67, 66, 66, 0.461);
+  margin-top: 50px;
+}
+.login button:hover{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(86, 86, 86);
+  margin: 20px;
+  border: 0px;
+  box-shadow: 0px 0px 2px 2px rgba(67, 66, 66, 0.461);
+}
+
+.ButtonBox:hover{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(86, 86, 86);
+  margin: 20px;
+  border: 0px;
+  box-shadow: 0px 0px 2px 2px rgba(67, 66, 66, 0.461);
+}
+.ProductBody{
+  margin-top: 10%;
+  right:50%;
+  color: white;
+}
+.checkout ul{
+  border-radius: 5px;
+}
+.checkout{
+  margin-bottom: 100px;
+}
+.checkout li {
+  display: inline-block;
+  padding: 5px;
+  width: 350px;
+  height: 100px;
+  color: #18282c;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: dimgray;
+  color: white;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.navbar-ul li a{
+  color:white;
+  text-decoration: none;
+}
+.Footer{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(360deg, dimgray, transparent);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
